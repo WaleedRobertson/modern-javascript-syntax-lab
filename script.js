@@ -105,12 +105,47 @@
 
 // Your code here
 
-const localLangConfig = null; // Change to 'es', 'fr', etc., or keep it null
-const LANG = localLangConfig || 'en';
-console.log('Language setting:', LANG);
+// const localLangConfig = null; // Change to 'es', 'fr', etc., or keep it null
+// const LANG = localLangConfig || 'en';
+// console.log('Language setting:', LANG);
 
 
 // Log the result
+
+// 2. SET WEBSITE THEME
+
+// const userSavedTheme = null; // Change to 'dark', 'contrast', etc., or keep it null
+
+// a. Create a variable called USER_THEME
+// b. Assign USER_THEME the value of userSavedTheme or 'light' as a default
+
+// Your code here
+
+// Log the result
+const userSavedTheme = null; // Change to 'dark', 'contrast', etc., or keep it null
+
+const USER_THEME = userSavedTheme || 'light';
+
+// console.log('User theme setting:', USER_THEME);
+
+// Exercise 11: Optional chaining
+// Now check for `cat.age` on `adventurer`. See how it errors out? Use optional chaining in a console.log that it returns undefined instead.
+
+// const adventurer = {
+//   name: 'Alice',
+// };
+
+// let cat; // Your code here
+
+const adventurer = {
+    name: 'Alice',
+  };
+  
+  let catAge = adventurer.cat?.age;
+//   console.log(catAge); // Output: undefined
+  
+
+
 
 
 
