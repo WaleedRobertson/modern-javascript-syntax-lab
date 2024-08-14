@@ -6,11 +6,11 @@
 
 // Your code here
 
-const nums2 = array1.map((currentElement) => {
-  return currentElement * 2;
-});
+// const nums2 = array1.map((currentElement) => {
+//   return currentElement * 2;
+// });
 
-console.log(nums2); // ['vanilla ice cream', 'chocolate ice cream', 'strawberry ice cream']
+// console.log(nums2); // ['vanilla ice cream', 'chocolate ice cream', 'strawberry ice cream']
 
 // Given the following array, use destructuring to pull out the first and second values and place them into variables. Log both variables.
 
@@ -18,9 +18,9 @@ console.log(nums2); // ['vanilla ice cream', 'chocolate ice cream', 'strawberry 
 
 // Your code here
 
-const [firstValue, secondValue] = pizzaToppings;
-console.log(firstValue);
-console.log(secondValue);
+// const [firstValue, secondValue] = pizzaToppings;
+// console.log(firstValue);
+// console.log(secondValue);
 
 // Given the following object, use destructuring to create variables `make` and `model` that will hold the respective values.
 
@@ -29,10 +29,10 @@ console.log(secondValue);
 //     model: 'q5',
 //   };
 
-  const {make, model} = car; 
+//   const {make, model} = car; 
 
-  console.log(make);
-  console.log(model);
+//   console.log(make);
+//   console.log(model);
 
   // Duplicate the following array using the spread operator and assign it to `controversialPizzaToppings`. Then, log the variable.
 
@@ -40,8 +40,8 @@ console.log(secondValue);
 
 // Your code here
 
-const controversialPizzaToppings = [...pizzaToppings]
-console.log(controversialPizzaToppings); 
+// const controversialPizzaToppings = [...pizzaToppings]
+// console.log(controversialPizzaToppings); 
 
 // Duplicate the following object and spread its values into a new variable `myCar`.
 
@@ -52,12 +52,12 @@ console.log(controversialPizzaToppings);
   
   // Change the `model` property of `myCar` to 'q7'. Log both objects.
   
-  const myCar = {...car}
+//   const myCar = {...car}
 
-  myCar.model = q7;
+//   myCar.model = q7;
 
-console.log('Original:' , car);
-console.log('Clone: ' , myCar); 
+// console.log('Original:' , car);
+// console.log('Clone: ' , myCar); 
 
 // Create an object named userProfile. 
 // Define a variable named propertyName and assign a string to it (like a username, age, or email). 
@@ -65,10 +65,52 @@ console.log('Clone: ' , myCar);
 
 // Your code here
 
-const userProfile = {
-}
+// const userProfile = {
+// }
 
-const propertyName = 'Casa Migos'; 
+// const propertyName = 'Casa Migos'; 
+
+// Create a function that takes two parameters, `noun` and `adjective`, both with the following respective default values:
+// 1. `cat`
+// 2. `white`
+// The function should log a sentence 'The cat is white.' by default. The function should substitute the appropriate parameters when supplied arguments.
+
+// function addThreeNumbers(noun = 'cat', adjective = 'white') {
+//     console.log(` The ${noun} is ${adjective}`)
+//   }
+  
+//   addThreeNumbers();
+
+  // Convert the following `if...else` statement in to a ternary:
+
+// let pizza = 'tasty';
+
+// if (pizza === 'tasty') {
+//   console.log('yum');
+// } else {
+//   console.log('yuck');
+// }
+
+// console.log(pizza === 'tasty' ? 'yum' : 'yuck');
+
+// 1. SET LANGUAGE
+
+// Construct a single line of code that assigns a default value using the logical OR operator. This line should match the logic of the following statement: 
+
+// "LANG is equal to localLangConfig or the default value of English."
+
+
+// a. Create a variable called LANG
+// b. Assign LANG the value of localLangConfig or 'en' as a default
+
+// Your code here
+
+const localLangConfig = null; // Change to 'es', 'fr', etc., or keep it null
+const LANG = localLangConfig || 'en';
+console.log('Language setting:', LANG);
+
+
+// Log the result
 
 
 
